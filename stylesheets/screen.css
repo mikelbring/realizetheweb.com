@@ -1,7 +1,5 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,700";
+@import "http://fonts.googleapis.com/css?family=Merriweather:400,700";
 /* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -65,4 +63,115 @@ a img {
 /* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
+}
+
+/* line 5, ../sass/screen.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #474747;
+}
+
+/* line 12, ../sass/screen.scss */
+#main h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 26px;
+  padding-bottom: 80px;
+}
+/* line 17, ../sass/screen.scss */
+#main h1 span {
+  color: #ffb618;
+}
+/* line 22, ../sass/screen.scss */
+#main .row {
+  width: 881px;
+  margin: auto;
+}
+/* line 25, ../sass/screen.scss */
+#main .row .left {
+  float: left;
+}
+/* line 26, ../sass/screen.scss */
+#main .row .right {
+  float: right;
+  margin-top: 5px;
+}
+/* line 27, ../sass/screen.scss */
+#main .row p {
+  clear: both;
+  margin-bottom: 50px;
+  line-height: 27px;
+}
+/* line 32, ../sass/screen.scss */
+#main .row a {
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 36, ../sass/screen.scss */
+#main .row a:hover {
+  text-decoration: none;
+}
+/* line 41, ../sass/screen.scss */
+#main .row img {
+  box-shadow: 0px 0px 10px #69387c;
+}
+/* line 47, ../sass/screen.scss */
+#main section.welcome {
+  position: relative;
+  display: none;
+}
+/* line 51, ../sass/screen.scss */
+#main section.welcome .row p {
+  line-height: 36px;
+  font-weight: 300;
+  font-size: 26px;
+  padding-bottom: 80px;
+}
+/* line 56, ../sass/screen.scss */
+#main section.welcome .row p a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #474747;
+}
+/* line 60, ../sass/screen.scss */
+#main section.welcome .row p a:hover {
+  color: #5ea91b;
+}
+/* line 66, ../sass/screen.scss */
+#main section.welcome .row a {
+  font-size: 26px;
+  color: #5ea91b;
+  text-decoration: none;
+}
+/* line 70, ../sass/screen.scss */
+#main section.welcome .row a:hover {
+  text-decoration: none;
+  color: #569d17;
+}
+/* line 77, ../sass/screen.scss */
+#main section.welcome .arrow {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  background: url("../images/arrow.png") no-repeat;
+  display: block;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -7px;
+}
+/* line 89, ../sass/screen.scss */
+#main section.fllix {
+  background-color: #754189;
+  color: #fff;
+}
+/* line 92, ../sass/screen.scss */
+#main section.fllix .logo {
+  width: 54px;
+  height: 37px;
+  background: url("../images/projects/fllix-logo.png") no-repeat;
+  display: block;
+  text-indent: -99999px;
+  margin-bottom: 50px;
 }

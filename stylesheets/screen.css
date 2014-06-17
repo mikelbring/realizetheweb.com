@@ -120,7 +120,6 @@ body {
 /* line 47, ../sass/screen.scss */
 #main section.welcome {
   position: relative;
-  display: none;
 }
 /* line 51, ../sass/screen.scss */
 #main section.welcome .row p {

@@ -1,0 +1,239 @@
+@import "compass/reset";
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+
+$body: #4f4e4e;
+$grey: #d1d1d1;
+$blue: #2881e5;
+$lightblue: #a0cdff;
+$yellow: #f2ad28;
+$purple: #da65c5;
+
+body {
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	color: $body;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0px auto;
+	h3 {
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 900;
+	}
+	.clr {
+		clear: both;
+	}
+}
+
+header {
+	margin-top: 70px;
+	.logo {
+		float: left;
+		width: 41px;
+		height: 48px;
+		display: block;
+		background: url('../images/logo.png') no-repeat;
+		text-indent: -99999px;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		float: right;
+		li {
+			margin-top: 18px;
+			float: left;
+			margin-left: 70px;
+			a {
+				text-transform: uppercase;
+				font-size: 15px;
+				color: $body;
+				text-decoration: none;
+				font-weight: 900;
+				color: $grey;
+				&:hover {
+					color: $body;
+				}
+			}
+		}
+	}
+}
+
+#hero {
+	clear: both;
+	text-align: center;
+	padding: 200px 0px;
+	width: 100%;
+	p {
+		color: $body;
+		font-size: 41px;
+		font-weight: 400;
+		line-height: 60px;
+	}
+}
+
+#work {
+	width: 100%;
+	background-color: #2881e5;
+	padding: 80px 0px;
+	h3 {
+		color: $lightblue;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	ul {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 30px;
+		li {
+			width: 50%;
+			float: left;
+			a {
+				border-left: 5px solid #4899f4;
+				padding: 20px 25px 25px 25px;
+				font-size: 41px;
+				font-weight: 300;
+				color: #fff;
+				text-decoration: none;
+				display: block;
+				span {
+					margin: 0;
+					margin-top: 5px;
+					display: block;
+					font-size: 15px;
+					color: $lightblue;
+					font-weight: 400;
+					padding-left: 3px;
+				}
+				&:hover {
+					background-color: #2177d7;
+				}
+			}
+		}
+	}
+}
+
+#services {
+	padding: 100px 0px;
+	width: 100%;
+	border-bottom: 1px solid #eeeeee;
+	h3 {
+		color: $grey;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			width: 100%;
+			clear: both;
+			&:last-child {
+				margin-bottom: 70px;
+			}
+			.category {
+				float: left;
+				width: 314px;
+				h3 {
+					&.design {
+						color: $yellow;
+					}
+					&.dev {
+						color: $purple;
+					}
+					float: left;
+					margin-top: 18px;
+				}
+			}
+
+			.skills {
+				float: left;
+				font-size: 41px;
+			}
+		}
+	}
+}
+
+#team {
+	h3 {
+		color: $grey;
+		text-align: center;
+		padding: 100px 0px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li {
+			display: inline-block;
+			margin-left: 150px;
+			&:first-child {
+				margin-left: 0;
+			}
+			img {
+				width: 117px;
+				height: 117px;
+				border-radius: 50%;
+				float: left;
+				display: block;
+				margin-bottom: 40px;
+			}
+			.info {
+				float: left;
+				margin-top: 13px;
+				margin-left: 30px;
+				text-align: left;
+				h2 {
+					font-size: 30px;
+					margin: 0;
+					padding: 0;
+					color: #4f4e4e;
+					padding-bottom: 10px;
+				}
+				span {
+					font-size: 25px;
+					color: #c4c4c4;
+					margin: 0;
+					padding: 0;
+					display: block;
+					margin-bottom: 10px;
+				}
+				a {
+					color: $blue;
+					text-decoration: none;
+					display: block;
+					&:hover {
+						color: $lightblue;
+					}
+				}
+			}
+		}
+	}
+}
+
+#contact {
+	padding: 80px 0px;
+	h3 {
+		color: $grey;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	p {
+		text-align: center;
+		font-size: 30px;
+		a {
+			color: $blue;
+			text-decoration: none;
+			&:hover {
+				color: $lightblue;
+			}
+		}
+	}
+}
+
+

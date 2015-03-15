@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!-- <!DOCTYPE HTML>
 <html>
 	<head>
 		<meta charset="UTF-8" />
@@ -38,4 +38,6 @@
 			</section>
 		</div>
 	</body>
-</html>
+</html>-->
+
+BRB.

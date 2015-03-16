@@ -357,14 +357,13 @@ header ul li a:hover {
   header ul {
     display: none;
   }
-}
-@media (max-width: 500px) {
-  /* line 268, ../sass/style.scss */
+
+  /* line 265, ../sass/style.scss */
   #hero {
     padding: 100px 0px;
     width: 100%;
   }
-  /* line 271, ../sass/style.scss */
+  /* line 268, ../sass/style.scss */
   #hero p {
     color: #4f4e4e;
     font-size: 30px;
@@ -372,62 +371,62 @@ header ul li a:hover {
     line-height: 40px;
   }
 
-  /* line 278, ../sass/style.scss */
+  /* line 275, ../sass/style.scss */
   #work {
     padding: 40px 0px;
   }
-  /* line 280, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   #work h3 {
     margin-bottom: 40px;
   }
-  /* line 284, ../sass/style.scss */
+  /* line 281, ../sass/style.scss */
   #work ul li {
     width: 100%;
     margin-bottom: 10px;
   }
-  /* line 287, ../sass/style.scss */
+  /* line 284, ../sass/style.scss */
   #work ul li:last-child {
     margin-bottom: 0px;
   }
-  /* line 291, ../sass/style.scss */
+  /* line 288, ../sass/style.scss */
   #work ul li a span {
     display: none;
   }
 
-  /* line 298, ../sass/style.scss */
+  /* line 295, ../sass/style.scss */
   #services {
     padding: 50px 0px;
     overflow: hidden;
   }
-  /* line 301, ../sass/style.scss */
+  /* line 298, ../sass/style.scss */
   #services h3 {
     margin-bottom: 40px;
   }
-  /* line 305, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   #services ul li {
     width: 100%;
     clear: both;
   }
-  /* line 308, ../sass/style.scss */
+  /* line 305, ../sass/style.scss */
   #services ul li:last-child {
     margin-bottom: 30px;
   }
-  /* line 312, ../sass/style.scss */
+  /* line 309, ../sass/style.scss */
   #services ul li .category h3 {
     margin-bottom: 15px;
     padding: 0;
     margin-top: 18px;
   }
-  /* line 315, ../sass/style.scss */
+  /* line 312, ../sass/style.scss */
   #services ul li .category h3.design {
     color: #f2ad28;
   }
-  /* line 318, ../sass/style.scss */
+  /* line 315, ../sass/style.scss */
   #services ul li .category h3.dev {
     color: #da65c5;
     margin-top: 50px;
   }
-  /* line 326, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   #services ul li .skills {
     font-size: 30px;
     text-align: left;
@@ -435,25 +434,25 @@ header ul li a:hover {
     width: 100%;
   }
 
-  /* line 337, ../sass/style.scss */
+  /* line 334, ../sass/style.scss */
   #team h3 {
     color: #d1d1d1;
     text-align: center;
     padding: 50px 0px;
   }
-  /* line 342, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   #team ul {
     margin: 0;
     padding: 0;
     text-align: center;
   }
-  /* line 346, ../sass/style.scss */
+  /* line 343, ../sass/style.scss */
   #team ul li {
     width: 100%;
     clear: both;
     margin-left: 0px;
   }
-  /* line 350, ../sass/style.scss */
+  /* line 347, ../sass/style.scss */
   #team ul li img {
     width: 117px;
     height: 117px;
@@ -463,18 +462,18 @@ header ul li a:hover {
     margin-bottom: 40px;
     margin: 0px auto;
   }
-  /* line 361, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   #team ul li:last-child .info a {
     margin-bottom: 0px;
   }
-  /* line 366, ../sass/style.scss */
+  /* line 363, ../sass/style.scss */
   #team ul li .info {
     float: none;
     margin-top: 13px;
     text-align: center;
     margin-left: 0px;
   }
-  /* line 371, ../sass/style.scss */
+  /* line 368, ../sass/style.scss */
   #team ul li .info h2 {
     font-size: 30px;
     margin: 0;
@@ -482,7 +481,7 @@ header ul li a:hover {
     color: #4f4e4e;
     padding-bottom: 10px;
   }
-  /* line 378, ../sass/style.scss */
+  /* line 375, ../sass/style.scss */
   #team ul li .info span {
     font-size: 25px;
     color: #c4c4c4;
@@ -491,14 +490,14 @@ header ul li a:hover {
     display: block;
     margin-bottom: 10px;
   }
-  /* line 386, ../sass/style.scss */
+  /* line 383, ../sass/style.scss */
   #team ul li .info a {
     color: #2881e5;
     text-decoration: none;
     display: block;
     margin-bottom: 50px;
   }
-  /* line 391, ../sass/style.scss */
+  /* line 388, ../sass/style.scss */
   #team ul li .info a:hover {
     color: #a0cdff;
   }

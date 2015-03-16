@@ -237,3 +237,49 @@ header {
 }
 
 
+/* -------------------------
+	Responsive Template
+ ------------------------- */
+@media (max-width: 1030px){
+	.row {
+		margin: 0px 40px;
+	}
+}
+
+@media (max-width: 770px) {
+	header {
+		ul {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	#hero {
+		padding: 100px 0px;
+		width: 100%;
+		p {
+			color: $body;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 40px;
+		}	
+	}
+	#work {
+		ul {
+			li {
+				width: 100%;
+				margin-bottom: 10px;
+				&:last-child {
+					margin-bottom: 0px;
+				}
+				a {
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
